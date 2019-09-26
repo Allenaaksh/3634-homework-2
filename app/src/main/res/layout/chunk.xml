@@ -1,0 +1,52 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:layout_weight="1"
+       android:src="@drawable/melb" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="147dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="26dp"
+            android:layout_marginTop="29dp"
+            android:text=" Melbourne"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textSize="23sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginBottom="26dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="time"
+            android:text="1:00Am"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
