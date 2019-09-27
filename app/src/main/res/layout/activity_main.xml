@@ -19,16 +19,13 @@
 
         <include layout="@layout/chunk" />
         <include layout="@layout/brisben" />
-        <include layout="@layout/sydney" />
 
+        <include layout="@layout/beijing1"/>
+        <include layout="@layout/tokyo"/>
+        <include layout="@layout/sydney"/>
 
 
     </LinearLayout>
-
-
-
-
-
 
 
 </ScrollView>
