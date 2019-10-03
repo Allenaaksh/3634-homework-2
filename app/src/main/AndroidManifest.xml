@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".sydneymain" />
+        <activity android:name=".melbmain" />
+        <activity android:name=".tykomain" />
+        <activity android:name=".brisbenmain" />
+        <activity android:name=".beijingmain" />
+
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
